@@ -1,0 +1,200 @@
+.App {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  background-color: rgba(0, 0, 255, 0.4);
+}
+
+.App .box {
+  background-image: url("https://images.pexels.com/photos/241544/pexels-photo-241544.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80%;
+  width: 80%;
+  background-color: black;
+  position: relative;
+  overflow: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.App .box .col80 {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 80%;
+  flex: 0 0 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  position: relative;
+  -ms-flex-line-pack: start;
+  align-content: flex-start;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  color: whitesmoke;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.App .box .col80 form {
+  margin-left: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.App .box .col80 h1 {
+  margin-left: 10%;
+}
+
+.App .box .col80 .logo {
+  overflow: auto;
+  top: 10px;
+  left: 10px;
+  position: absolute;
+  height: 60px;
+  width: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 24px;
+  text-shadow: 2px 2px 2px black;
+  border-radius: 50%;
+  background-color: rgba(128, 128, 128, 0.6);
+  z-index: 122;
+}
+
+.App .box .col80 .githubrepo {
+  position: absolute;
+  background-color: rgba(128, 128, 128, 0.6);
+  cursor: pointer;
+  color: white;
+  padding: 10px;
+  top: 10px;
+  right: 10px;
+}
+
+.App .box .col80 .inputdiv {
+  margin-bottom: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.App .box .col80 .inputdiv input {
+  margin-right: 4%;
+  border-radius: 20px;
+  height: 30px;
+}
+
+.App .box .col80 .inputdiv label {
+  font-weight: 800;
+}
+
+.App .box .col80 button {
+  padding: 10px 30px;
+  border: 0px;
+  background-color: whitesmoke;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.App .box .col80 button:hover {
+  background-color: gray;
+}
+
+.App .box .col80 h3 {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  margin-left: 10%;
+  background-color: rgba(128, 128, 128, 0.5);
+}
+
+.App .box .col20 {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 20%;
+  flex: 1 1 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: whitesmoke;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.App .box .col20 a,
+.App .box .col20 a:visited {
+  color: whitesmoke;
+  text-decoration: overline;
+}
+
+.App .box.profitbox {
+  background-image: url("https://i.gifer.com/4A5.gif");
+}
+
+.App .box.lossbox {
+  background-image: url("https://i.gifer.com/3BBK.gif");
+}
+
+@media only screen and (max-width: 1025px) {
+  .App .box {
+    height: 100%;
+    width: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .App .box .col80 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 80%;
+    flex: 0 0 80%;
+  }
+  .App .box .col80 h1 {
+    margin-top: 70px;
+  }
+  .App .box .col20 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 20%;
+    flex: 0 0 20%;
+  }
+}
+/*# sourceMappingURL=App.css.map */
